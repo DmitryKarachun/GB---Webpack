@@ -1,3 +1,4 @@
+import { Howl } from "howler/dist/howler.min.js";
 const sound = new Howl({
   src: ['https://assets.mixkit.co/sfx/preview/mixkit-classic-short-alarm-993.mp3']
   });

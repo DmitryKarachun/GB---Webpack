@@ -1,7 +1,9 @@
+
 import { diffDates, diffToHtml } from "./datecalc.js";
 import { formatError } from "./utils.js";
 import { handleSwitch } from "./switch.js";
 import  {startCounting, stopCounting, resetCounting}  from "./timer.js";
+import '../style/style.css';
 
 const dateCalcForm = document.getElementById("datecalc");
 const dateCalcResult = document.getElementById("datecalc__result");
